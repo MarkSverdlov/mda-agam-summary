@@ -27,7 +27,13 @@
 % Language settings
 \setdefaultlanguage{hebrew}
 \setotherlanguage{english}
-\newfontfamily\hebrewfont[Script=Hebrew]{David Libre}
+\setmainfont[
+  Path        = fonts/,
+  Extension   = .ttf,
+  UprightFont = *-Regular,
+  BoldFont    = *-Bold,
+  ItalicFont  = *-Medium
+]{DavidLibre}
 
 \title{סיכום אג''ם שגרה במד''א}
 \date{}
